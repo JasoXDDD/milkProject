@@ -8,8 +8,56 @@
 {% block body %}
     <!- Try building a new body here, bootstrap is a wise choice ->
     <div class="px-5 py-5 mx-auto">
-        <h1 class="text-primary"><strong>Stubby Body</strong></h1>
-        <p class="text-secondary">Put your name here</p>
+        <h1 class="text-primary"><strong>About</strong></h1>
+        <p class="text-secondary">A page of the team members</p>
+        <div class="card">
+            <div class="card-body">
+                <img src="{{ url_for('static', filename='assets/python.jpeg') }}" alt="Python Development" style="float:left;">
+                <h5 class="card-title">Someone</h5>
+                <p class="card-text">
+                    <ol>
+                        <li>number 1</li>
+                        <li>number 2</li>
+                    </ol>
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <img src="{{ url_for('static', filename='assets/python.jpeg') }}" alt="Python Development" style="float:left;">
+                <h5 class="card-title">someone</h5>
+                <p class="card-text">
+                    <ol>
+                        <li>hq</li>
+                        <li>qe</li>
+                    </ol>
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <img src="{{ url_for('static', filename='assets/python.jpeg') }}" alt="Python Development" style="float:left;">
+                <h5 class="card-title">someone</h5>
+                <p class="card-text">
+                    <ol>
+                        <li>qw</li>
+                        <li>qew</li>
+                    </ol>
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <img src="{{ url_for('static', filename='assets/python.jpeg') }}" alt="Python Development" style="float:left;">
+                <h5 class="card-title">some</h5>
+                <p class="card-text">
+                    <ol>
+                        <li>asdf</li>
+                        <li>qwe</li>
+                    </ol>
+                </p>
+            </div>
+        </div>
     </div>
 {% endblock %}
 
